@@ -1,0 +1,19 @@
+citrus:
+  Vendor: Xiaomi
+  PrettyName: POCO M3
+  DeviceType: phone
+  GridUnit: 21
+  PrimaryOrientation: Portrait
+  SupportedOrientations:
+    - Portrait
+    - InvertedPortrait
+    - Landscape
+    - InvertedLandscape
+  MirAndroidPlatformServerBackpressure:
+    - false
+  MirAndroidPlatformServerPartialUpdates:
+    - true
+  MirAndroidPlatformServerEglSync:
+    - false
+  MirAndroidPlatformClientEglFlush:
+    - "!/usr/bin/unity8,!/usr/bin/lomiri,all"
