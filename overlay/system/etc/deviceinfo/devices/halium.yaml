@@ -2,7 +2,7 @@ citrus:
   Vendor: Xiaomi
   PrettyName: POCO M3
   DeviceType: phone
-  GridUnit: 21
+  GridUnit: 22
   PrimaryOrientation: Portrait
   SupportedOrientations:
     - Portrait
