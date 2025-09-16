@@ -9,14 +9,6 @@ citrus:
     - InvertedPortrait
     - Landscape
     - InvertedLandscape
-  MirAndroidPlatformServerBackpressure:
-    - false
-  MirAndroidPlatformServerPartialUpdates:
-    - true
-  MirAndroidPlatformServerEglSync:
-    - false
-  MirAndroidPlatformClientEglFlush:
-    - "!/usr/bin/unity8,!/usr/bin/lomiri,all"
   FlashlightSysfsPath:
       - /sys/class/leds/flashlight/brightness
   FlashlightSwitchPath:
